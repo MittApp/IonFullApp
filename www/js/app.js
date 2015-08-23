@@ -147,33 +147,33 @@ angular.module('your_app_name', [
   })
 
   //LAYOUTS
-  .state('app.layouts', {
-    url: "/layouts",
-    views: {
-      'menuContent': {
-        templateUrl: "views/app/layouts/layouts.html"
-      }
-    }
-  })
+  //.state('app.layouts', {
+  //  url: "/layouts",
+  //  views: {
+  //    'menuContent': {
+  //      templateUrl: "views/app/layouts/layouts.html"
+  //    }
+  //  }
+//  })
 
-  .state('app.tinder-cards', {
-    url: "/layouts/tinder-cards",
-    views: {
-      'menuContent': {
-        templateUrl: "views/app/layouts/tinder-cards.html",
-        controller: 'TinderCardsCtrl'
-      }
-    }
-  })
+  //.state('app.tinder-cards', {
+  //  url: "/layouts/tinder-cards",
+  //  views: {
+  //    'menuContent': {
+  //      templateUrl: "views/app/layouts/tinder-cards.html",
+  //      controller: 'TinderCardsCtrl'
+  //    }
+  //  }
+//  })
 
-  .state('app.slider', {
-    url: "/layouts/slider",
-    views: {
-      'menuContent': {
-        templateUrl: "views/app/layouts/slider.html"
-      }
-    }
-  })
+//  .state('app.slider', {
+//    url: "/layouts/slider",
+//    views: {
+//      'menuContent': {
+  //      templateUrl: "views/app/layouts/slider.html"
+//      }
+//    }
+//  })
 
   //FEEDS
   .state('app.feeds-categories', {
